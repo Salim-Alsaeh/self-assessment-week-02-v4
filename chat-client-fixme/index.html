@@ -38,9 +38,8 @@
     </div>
     <script src="js/setup.js"></script>
     <script>
-      // Get messages every 7.5 seconds
       getData();
-      setInterval(getData, 7500);
+      setInterval(getData, 0); // to get the data as soon as the client successfully received them setting it to 0 seconds
 
       $('.submit').on('submit', function(event) {
         event.preventDefault();

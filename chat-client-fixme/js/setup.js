@@ -114,7 +114,7 @@ var postData = function(message, username) {
       text: message
     }),
     success: function(data) {
-      getData(); // to get the data as soon as the client successfully received them
+      getData(); 
       console.log('Success!', data);
     },
     error: function(data) {
