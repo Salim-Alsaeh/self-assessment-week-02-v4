@@ -57,7 +57,7 @@ var findDuplicates = function(string) {
 };
 
 
-var bruteForcePasswordTimeComplexity =  TimeComplexity.Linear; // TODO: Update this constant
+var bruteForcePasswordTimeComplexity =  TimeComplexity.EXPONENTIAL; // TODO: Update this constant
 
 var bruteForcePassword = function(max) {
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
